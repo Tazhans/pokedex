@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/269px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon logo">
+    </div>
+
+    <!--- Search Button --->
+    <div class="search">
+        <input type="text" class="searchbar" onclick="searchPokemon()" placeholder="Enter a Name">
+        <button class="searchBtn">Search</button>
+    </div>
+
+    <!--- Pokedex --->
+    <div class="pokedex">
+
+        <div class="display"></div>
+        <div class="pokemonName">
+            <p></p>
+        </div>
+        <button class="shiny">Shiny</button>
+        <div class="pokeInfo">
+            <p class="bio"></p>
+        </div>
+
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
